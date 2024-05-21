@@ -99,27 +99,27 @@ if(percentage >= 85){
     grade="A-one";
     remarks=" wow! Excellent";
 }
-else if(percentage>=70){
+else if(percentage >= 70){
     grade="A";
     remarks="Good";
 }
-else if(percentage>=60){
+else if(percentage >= 60){
     grade="B";
     remarks="You need to improve";
 }
-else if(percentage>=70){
+else if(percentage >= 70){
     grade="A-one";
     remarks="Excellent";
 }
-else if(percentage<60){
+else if(percentage < 60){
     grade="Fail";
     remarks=" oops! Sorry";
 }
 else{
     document.write("Invalid Input" + "<br>")
 }
-document.write('Grade :'+grade+'<br>');
-document.write('Remarks :'+remarks+'<br>');
+document.write('Grade :' + grade +'<br>');
+document.write('Remarks :'+ remarks +'<br>');
 
 // 07*********************************888
 
@@ -181,10 +181,10 @@ else {
 var firstNumber = +prompt("Enter first Number");
 var secondNumber = +prompt("Enter second Number");
 var operation = prompt('Choose your operation : \n(+, - , * , % ');
-if(oper==='+'){
-    alert(firstNumber+secondNumber)
+if(operation === '+'){
+    alert(firstNumber + secondNumber)
 }
-else if(operation ==='-'){
+else if(operation === '-'){
     alert(firstNumber-secondNumber)
 }
 else if(operation === '*'){
@@ -196,5 +196,6 @@ else if(operation === '/'){
 else{
     alert(firstNumber % secondNumber)
 };
+
 
 
