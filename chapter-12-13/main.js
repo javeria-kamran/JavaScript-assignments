@@ -1,6 +1,6 @@
-// 01********************88
+// 01*******************************
 
-var character = prompt('Please enter your character to checks whether the given input is a number, uppercase letter or lower case letter');
+var character = prompt("Please enter your character to checks whether the given input is a number, uppercase letter or lower case letter");
 var value = character.charCodeAt(0);
 
 //Checking for Number
@@ -22,52 +22,52 @@ else {
     alert("Given input is not a number or letter");
 }
 
-// 02***************************88
-var firstNumber=+prompt('Enter first number');
-var secondNumber=+prompt('Enter second number');
-if(firstNumber>secondNumber){
-    alert(firstNumber+' is largerthan '+ secondNumber);
+// 02***************************
+var firstNumber = +prompt("Enter first number");
+var secondNumber=+prompt("Enter second number");
+if(firstNumber > secondNumber){
+    alert(firstNumber+ " is largerthan "+ secondNumber);
 }
-else if(firstNumber<secondNumber){
-    alert(secondNumber+' is larger than '+ firstNumber);
+else if(firstNumber < secondNumber){
+    alert(secondNumber +  " is larger than " + firstNumber);
 }
 else{
-    alert(firstNumber+' and '+ secondNumber+' both are equal');
+    alert(firstNumber+ " and " + secondNumber+"  both are equal");
 }
 
 // 03************************
 
-var num=+prompt('Please enter number to check whether positive, negative or zero');
-if(num>0){
-    alert(num+' is postive')
+var num=+prompt("Please enter number to check wheather positive, negative or zero");
+if(num > 0){
+    alert(num + "  is postive")
 }
-else if(num<0){
-    alert(num+' is negative')
+else if(num < 0){
+    alert(num + " is negative")
 }
 else{
-    alert(num+' is zero')
+    alert(num + " is zero")
 }
 
 // 04************************************
-var character=prompt('Enter character to check vowel or not');
+var character = prompt("Enter character to check vowel or not");
 if(character==='a'||character==='A'||character==='e'||character==='E'||character==='i'||character==='I'||character==='o'||character==='O'||character==='u'||character==='U'){
-    alert(character+ ' is vowel')
+    alert(character+ " is vowel")
 }
 else{
-    alert(character+' is not vowel')
+    alert(character+ " is consonant")
 }
 
-// 05*******************************8
-var password='Tayyaba123';
-var userPassword=prompt('Enter your password');
-if(userPassword===''){
+// 05*******************************
+var password = "jiya123";
+var userPassword = prompt("Enter your password");
+if(userPassword === ''){
     alert('Please enter your password');
 }
-else if(userPassword===password){
-     alert('Correct! The password you entered matches the original password.')
+else if(userPassword === password){
+     alert("Correct! The password you entered is as same as the original")
 }
 else{
-    alert('Incorrect password')
+    alert("Incorrect password")
 }
 
 // 06*********************
@@ -93,19 +93,19 @@ else{
 
 // 07*********************************
 
-var time=+prompt('Please enter time in 24 hours \n clock format like: 1900 = 7pm.');
-if(time>=0 && time<1200){
-    alert('Good Morning')
+var time = +prompt("Please enter time in 24 hours \n clock format like: 1900 = 7pm.");
+if(time >= 0 && time < 1200){
+    alert("Good Morning")
 }
-else if(time>=1200 && time<1700){
-    alert('Good Afternoon')
+else if(time >= 1200 && time < 1700){
+    alert("Good Afternoon")
 }
-else if(time >=1700 && time<2100){
-    alert('Good Evening')
+else if(time >= 1700 && time < 2100){
+    alert("Good Evening")
 }
 else if(time >=2100 && time<=2359){
-    alert('Good Night')
+    alert("Good Night, sleep tight")
 }
 else{
-    alert('Invalid Input')
-}
+    alert("kindly enter valid input!")
+};

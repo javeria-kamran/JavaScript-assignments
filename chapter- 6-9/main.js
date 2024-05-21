@@ -38,10 +38,10 @@ let tableNum=+prompt('Input a number you want to see the multiples of');
  };
 
  // 06**************************************
- let sub1= prompt("Enter first subject name");
-let sub2= prompt("Enter second subject name");
-let sub3= prompt("Enter third subject name");
-let totalMarks=300;
+ let sub1 = prompt("Enter first subject name");
+let sub2 = prompt("Enter second subject name");
+let sub3 = prompt("Enter third subject name");
+let totalMarks = 300;
 let obtained1 = +prompt("Enter your first subject obtained marks");
 let obtained2 = +prompt("Enter your second subject marks")
 let obtained3 = +prompt("Enter your third subject marks")
