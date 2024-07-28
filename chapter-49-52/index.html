@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- cascading style sheet (custom) -->
+<link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    Task 1 
+     <fieldset >
+        <form action="" >
+            Name: <br>
+            <input type="text" id="name"><br>
+            Father's Name: <br>
+            <input type="text" id="fatherName"><br>
+            Email: <br>
+            <input type="email" id="email"><br>
+            Number: <br>
+            <input type="no" id="no">
+            <button value="submit" onclick="info()">Submit</button>
+
+        </form>
+    </fieldset> 
+
+
+    Task 2
+     <p  id="pera">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, nam excepturi? Quod quis dignissimos .</p> <button href="javascript:void(0);" onclick="readMore()">Read More</button>
+ 
+    Task 3    
+     <div style="margin: auto; width: 50%;">
+        <label for="stdName">Student Name:</label>
+        <input type="text" id="stdName"><br><br>
+        <label for="stdClass">Student Class:</label>
+        <input type="text" id="stdClass"><br><br>
+        <button onclick="addRecord()">Add Student</button>
+    </div><br>
+
+    <table width = 50% align = "center" id = "recordTable">
+        <tr>
+            <th style="text-align: left;">Name</th>
+            <th style="text-align: left;">Class</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+    </table>
+
+    <!-- javascript file -->
+     <script src="./main.js"></script>
+</body>
+</html>

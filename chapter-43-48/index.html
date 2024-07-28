@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Task 1
+    <a href="" onclick="greet()">Click Me</a>
+
+    Task 2
+    <h1>Mobile Phone Lookup</h1>
+    <div style="display: flex">
+      <img
+        src="1.jpg"
+        alt=""
+        style="height: 200px; height: 200px"
+        onclick="thanks()"
+      />
+      <img
+        src="2.jpg"
+        alt=""
+        style="height: 200px; height: 200px"
+        onclick="thanks()"
+      />
+      <img
+        src="3.jpg"
+        alt=""
+        style="height: 200px; height: 200px"
+        onclick="thanks()"
+      />
+      <img
+        src="4.jpg"
+        alt=""
+        style="height: 200px; height: 200px"
+        onclick="thanks()"
+      />
+    </div>
+    Task 3
+    <table>
+      <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+      </tr>
+      <tr id="tr">
+        <td>0</td>
+        <td>John</td>
+        <td>10</td>
+        <td><button onclick="remove(this)" id="row">Delete</button></td>
+      </tr>
+      <tr id="tr">
+        <td>1</td>
+        <td>Doe</td>
+        <td>9</td>
+        <td><button onclick="remove(this)" id="row">Delete</button></td>
+      </tr>
+      <tr id="tr">
+        <td>2</td>
+        <td>John</td>
+        <td>10</td>
+        <td><button onclick="remove(this)" id="row">Delete</button></td>
+      </tr>
+      <tr id="tr">
+        <td>3</td>
+        <td>James</td>
+        <td>8</td>
+        <td><button onclick="remove(this)" id="row">Delete</button></td>
+      </tr>
+    </table>
+    Task 4
+    <h1>Hover over the image</h1>
+    <img
+      id="myImage"
+      src="https://travelwiththesmile.com/wp-content/uploads/2017/07/Visiting-Angel-Falls-Venezuela-the-tallest-waterfall-in-the-world-7.jpg"
+      alt="Image"
+      onmouseover="changeImage()"
+      onmouseout="resetImage()"
+    />
+
+    Task 5
+    <p>Counter: <span id="counter">0</span></p>
+    <button onclick="increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button>
+    <!-- javascript file -->
+    <script src="./main.js"></script>
+  </body>
+</html>
